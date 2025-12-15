@@ -1,7 +1,7 @@
 <?php
 $servername = "localhost";
 $username = "root";
-$password = ""; // Default XAMPP password is empty
+$password = "root"; // Default XAMPP password is empty
 $dbname = "village_db";
 
 $conn = new mysqli($servername, $username, $password, $dbname);
